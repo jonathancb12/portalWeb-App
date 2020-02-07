@@ -18,6 +18,6 @@ public class UsuarioController {
 	public String listar(Model model) {
 		model.addAttribute("titulo", "Listado de Usuarios");
 		model.addAttribute("usuarios",usuarioDao.findAll());
-		return "listarUsuarios";
+		return "listado";
 	}
 }

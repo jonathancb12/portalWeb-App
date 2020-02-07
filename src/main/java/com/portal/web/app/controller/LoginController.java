@@ -13,6 +13,6 @@ public class LoginController {
 			Model model) {
 		
 		model.addAttribute("mensaje", email + " " + pass);
-		return "error";
+		return "listado";
 	}
 }
